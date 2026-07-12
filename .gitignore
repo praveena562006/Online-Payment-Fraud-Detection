@@ -1,0 +1,26 @@
+# Python
+_pycache_/
+*.pyc
+
+# Virtual Environment
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Model Files
+model/*.pkl
+
+# Dataset Files
+data/*.csv
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
+Thumbs.db
