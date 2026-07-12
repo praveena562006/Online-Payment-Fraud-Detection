@@ -76,6 +76,11 @@ streamlit run app/fraud_detection.py
 
 
 ---
+## Live Demo
+
+https://online-payment-fraud-detection-lrprr8jn7rcdj4smhccafe.streamlit.app/
+
+---
 
 ## 👩‍💻 Author
 
