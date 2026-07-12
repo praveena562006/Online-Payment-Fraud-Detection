@@ -11,7 +11,11 @@ st.set_page_config(
 )
 
 # --------------------- LOAD MODEL ---------------------
-model = joblib.load("../model/fraud_detection_pipeline.pkl")
+from pathlib import Path
+import joblib
+
+BASE_DIR = Path(_file_).resolve().parent.parent
+model = joblib.load(BASE_DIR / "model" / "fraud_detection_pipeline.pkl")
 
 # --------------------- SIDEBAR ---------------------
 st.sidebar.title("💳 Fraud Detection")
