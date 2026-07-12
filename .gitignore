@@ -231,7 +231,7 @@ venv/
 .vscode/
 
 # Model Files
-model/*.pkl
+#model/*.pkl
 
 # Dataset Files
 data/*.csv
