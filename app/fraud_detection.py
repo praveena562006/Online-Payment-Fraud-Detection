@@ -14,7 +14,7 @@ st.set_page_config(
 from pathlib import Path
 import joblib
 
-BASE_DIR = Path(_file_).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 model = joblib.load(BASE_DIR / "model" / "fraud_detection_pipeline.pkl")
 
 # --------------------- SIDEBAR ---------------------
